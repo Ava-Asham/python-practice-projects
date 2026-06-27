@@ -1,0 +1,11 @@
+word = input("Enter your word: ")
+
+print("Your word: ", word)
+print("Number of letters: ", len(word))
+print("First letter: ", word[0])
+print("Last letter: ", word[-1])
+print("Second letter: ", word[1])
+print("One last word left: ", word[-2])
+print("Lowercase version: ", word.lower())
+print("The place of the first letter 'e': ", word.find("e"))
+print("Deta type: ", type(word))
